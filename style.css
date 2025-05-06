@@ -219,7 +219,7 @@ ul .r{
 .nav a:hover{
     color: rgb(0, 255, 255);
 }
-/* Responsive adjustments for screens smaller than 768px */
+
 @media (max-width: 768px) {
     .main-nav {
       flex-direction: column;
