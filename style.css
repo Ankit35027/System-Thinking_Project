@@ -52,12 +52,12 @@ body{
 }
 .Heading h1{
     color: rgb(0, 17, 255);
-    font-size: 5vh;
+    font-size: 7vh;
     margin-bottom: 2vh;
 
 }
 .Heading p{
-    font-size: 3vh;
+    font-size: 4vh;
 }
 .why{
     display: flex;
@@ -114,7 +114,7 @@ body{
     padding: 10vh 2vw;
 }
 .need h1{
-    color: rgba(6, 167, 241, 0.883);
+    color: #FFFFFF;
     font-size: 8vh;
 }
 .need video{
@@ -153,6 +153,10 @@ body{
 }
 .BOT ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20vw;
 }
 .Footer{
     height: 40vh;
@@ -164,6 +168,12 @@ body{
     border-top: 1px solid #00ffff;
     border-bottom: 1px solid #00ffff;
     margin-top: 20vh;
+
+}
+ul .r{
+    height: 40vh;
+    width: 40vw;
+    border: none;
 
 }
 .Division{
@@ -183,16 +193,29 @@ body{
 }
 .s h1{
     margin-bottom: 2vh;
+    font-size: 5vh;
 }
-.s a{
+.s li{
     text-decoration: none;
     color: #ccc;
-    font-size: 2vh;
+    font-size: 1.8vh;
     text-decoration: underline;
+}
+.s h3{
+    font-size: 2vh;
 }
 .img{
     display: flex;
     justify-content: center;
     gap: 2vw;
     cursor: pointer;
+    margin-top: 2vh;
+}
+.a{
+    border: 4px solid rgb(13, 252, 228);
+    border-radius: 2vh;
+    padding: 1vh;
+}
+.nav a:hover{
+    color: rgb(0, 255, 255);
 }
