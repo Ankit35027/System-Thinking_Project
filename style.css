@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* background-color: black; */
+}
+body{
+    background-color: black;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+
+    
+    
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2vw;
+    font-size: 5vh;
+    gap: 1vw;
+    font-weight: bold;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(215, 208, 208, 0.188);
+    padding: 2vh 2vw;
+    height: 8vh;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 3vh;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vh 5vw;
+    gap: 2vh;
+    background-color: rgb(11, 1, 53);
+    margin: 3vw 10vh;
+    border-radius: 2vw;
+    
+}
+.Heading h1{
+    color: rgb(0, 17, 255);
+    font-size: 5vh;
+    margin-bottom: 2vh;
+
+}
+.Heading p{
+    font-size: 3vh;
+}
+.why{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: vh; */
+    margin: 10vh auto;
+    gap: 1vw;
+}
+.why img{
+    height: 40vh;
+    border-radius: 2vw;
+}
+.PS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: column;
+    background-color: rgb(11, 1, 53);
+    padding: 4vh 2vw;
+    border-radius: 2vw;
+}
+.PS h1{
+    font-size: 8vh;
+    color: rgba(6, 167, 241, 0.883);
+
+}
+.PS p{
+    font-size: 2vw;
+    
+}
+.divisor{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.Aim{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.foot{
+    font-weight: bolder;
+}
+.need{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8vh;
+    background-color: #1A1A1A;
+    margin: 10vh auto;
+    padding: 10vh 2vw;
+}
+.need h1{
+    color: rgba(6, 167, 241, 0.883);
+    font-size: 8vh;
+}
+.need video{
+    display: block;
+    border: 5px solid darkgray;
+    object-fit: cover;
+    width: 60vw;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1)
+    
+}
+.Heading li{
+    font-size: 5vh;
+    margin: 4vh auto;
+    color: aqua;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
