@@ -209,7 +209,7 @@ body.light-theme .Heading,
 body.light-theme .PS,
 body.light-theme .need,
 body.light-theme .Footer {
-    background: rgba(255, 255, 255, 0.9);
+    background: #e1e7e9;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
